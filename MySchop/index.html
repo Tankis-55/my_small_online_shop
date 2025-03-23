@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mein cooler Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=EUR" data-sdk-integration-source="button-factory"></script>
+
+</head>
+<body>
+    <div id="Logo">
+        <h1>Mein cooler Shop</h1>
+    </div>
+    
+    <div id="navigation">
+        <a class="Link" onclick="produktAnzeigen(1)"> T-Shirt </a>
+        <a class="Link" onclick="produktAnzeigen(2)"> Schuhe </a>
+    </div>
+    
+    <div class="produkt" id="tshirt">
+        <img src="https://img.ltwebstatic.com/images3_pi/2022/01/23/1642904587a78cfe8dff058a6f05dc1806f22d42d4.webp" alt="Bild von einem T-Shirt">
+        <h2>Geiles T-Shirt für 10€</h2>
+        <p>Bitte kauf dieses super coole T-Shirt. Es ist so schön</p>
+        <div id="smart-button-container">
+            <div style="text-align: center;">
+              <div id="paypal-button-tshirt"></div>
+            </div>
+          </div>
+    </div>
+    
+    <div class="produkt" id="schuhe">
+        <img src="https://www.knirpsenland.com/images/product_images/original_images/FILA-Disruptor-II-Premium-Damen-Sneaker-Wei%C3%9F-Schuhe.jpg" alt="Bild von Schuhe">
+        <h2>Tolle Schuhe für 99€</h2>
+        <p>Bitte kauf dieses super tolle Schuhe.</p>
+        <div id="smart-button-container">
+            <div style="text-align: center;">
+              <div id="paypal-button-schuhe"></div>
+            </div>
+          </div>
+    </div>
+    
+    <div id="footer">
+        <p>
+            Impressum<br>
+            Test Str. 123<br>
+            24568 Musterstadt<br>
+            Musterland
+        </p>
+    </div>
+
+    <script src="logik.js"></script>
+  </body>
+</html>

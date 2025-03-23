@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive
+ }
+
+#navigation {
+   margin-bottom: 24px;
+}
+
+#navigation .Link {
+   padding: 24px;
+  }
+
+#navigation .Link:hover {
+   background-color: rgb(218,219,231);
+   cursor: pointer;
+}
+.produkt img {
+    width: 80%;
+    max-width: 240px;
+ }
